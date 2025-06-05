@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Khalid Ahmed - Projects</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      background:linear-gradient(to right, #a4a7ab, #6b6366);
+      color: #000000;
+    }
+
+    /* Banner */
+    #banner {
+      background-color:linear-gradient(to right, #a4a7ab, #6b6366);
+      padding: 3rem 1rem;
+      text-align: center;
+      color: #000000;
+      position: relative;
+    }
+
+    .logo-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .logo {
+      position: relative;
+      width: 80px;
+      height: 80px;
+      background-color: #c5c5c5;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 2rem;
+      color: rgb(0, 0, 0);
+      animation: pulse 2s infinite;
+      box-shadow: 0 0 15px #000000;
+    }
+
+    .logo .glow {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      box-shadow: 0 0 20px 5px #349bcaa4;
+      opacity: 0.6;
+      animation: glow 2s infinite ease-in-out;
+      z-index: -1;
+    }
+
+    @keyframes glow {
+      0% { transform: scale(1); opacity: 0.6; }
+      50% { transform: scale(1.2); opacity: 0.3; }
+      100% { transform: scale(1); opacity: 0.6; }
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+
+    /* Main Content */
+    .container {
+       max-width: 700px;
+      margin: auto;
+      background-color: #e6e4e1;
+      padding: 2rem;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+      text-align: center;
+    }
+
+    p {
+      text-align: center;
+      font-size: 1.05rem;
+      margin-bottom: 2rem;
+      color: #000000;
+    }
+
+    a.button {
+      display: inline-block;
+      background-color: #2563eb;
+      color: white;
+      text-decoration: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      margin: 1rem auto;
+      transition: background 0.3s;
+      font-weight: 600;
+    }
+
+    a.button:hover {
+      background-color: #1d4ed8;
+    }
+
+    .link-section {
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+      align-items: center;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #6b7280;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 1.5rem;
+        margin: 1rem;
+      }
+    }
+
+    footer {
+  background-color: linear-gradient(to right, #a4a7ab, #6b6366);
+  color: white;
+  text-align: center;
+  padding: 1.5rem 0;
+  font-size: 0.9rem;
+}
+
+.footer-content a {
+  color: #00000080; /* soft blue link color */
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
+}
+
+  </style>
+</head>
+<body>
+
+  <!-- Banner -->
+  <section id="banner">
+    <div class="inner">
+      <div class="logo-container">
+        <div class="logo animated-circle" title="Code | Economics | Community | Policy">
+          <i class="fas fa-code"></i>
+          <div class="glow"></div>
+        </div>
+      </div>
+      <h2 style="margin-top: 1rem; font-weight: 600;">Khalid Ahmed</h2>
+      <p style="margin-top: 0.5rem;">Programming | Economics | Community | Policy</p>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <div class="container">
+    <h1>My Work</h1>
+    <p>Explore my projects and writing that blend data, creativity, and community insight.</p>
+
+    <div class="link-section">
+      <a class="button" href="https://github.com/KhalidSAhmed02/sprint-to-the-goal" target="_blank">🚀 Sprint to the Goal</a>
+      <a class="button" href="https://github.com/KhalidSAhmed02/policy-papers" target="_blank">📄 Policy Papers</a>
+    </div>
+  </div>
+
+  <footer>
+  <div class="footer-content">
+    <p>&copy; 2025 Khalid Ahmed. Built with ❤️</p>
+    <p>
+      <a href="mailto:khalid.ahmed009@outlook.com">khalid.ahmed009@outlook.com</a> |
+      <a href="https://www.linkedin.com/in/khalid-ahmed-18b229229/" target="_blank" rel="noopener">LinkedIn</a> |
+      <a href="https://github.com/KhalidSAhmed02" target="_blank" rel="noopener">GitHub</a> |
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>
