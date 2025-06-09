@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Khalid Ahmed - Programming</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    
+  * {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background: linear-gradient(to right, #000000, hsl(214, 86%, 43%));
+    color: #dce7ff;
+  }
+.main-nav {
+  background: linear-gradient(to right, #000000, hsl(214deg 86% 43%));
+  color: #dce7ff;
+  padding: 12px 20px;
+}
+
+.main-nav > ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #561ea0;
+  top: 100%;
+  left: 0;
+  min-width: 160px;
+  border-radius: 8px;
+  padding: 0;
+  list-style: none;
+  
+  /* Override inherited flex from parent ul */
+  display: none;
+  flex-direction: column; /* Optional, but makes sure it stacks vertically */
+}
+
+.dropdown-menu li {
+  padding: 10px 16px;
+  white-space: nowrap;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: flex;  /* flex works well for dropdown lists */
+}
+
+
+  #banner {
+    background: transparent;
+    padding: 3rem 1rem;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+   .logo {
+    width: 80px;
+    height: 80px;
+    background-color: #1e40af;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #f3f4f6;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  }
+
+  h1 {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+    margin: 15px 0;
+    text-align: center;
+    color: #e2eeff
+  }
+
+  .content-sections {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .section-box {
+    flex: 1 1 400px;
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.3);
+  }
+
+  .section-box h2 {
+    color: #f0f8ff;
+    margin-bottom: 1rem;
+  }
+
+  .section-box p, .section-box ul {
+    color: #cbd5e1;
+    line-height: 1.6;
+    font-size: 1rem;
+  }
+
+  .section-box ul {
+    padding-left: 1.2rem;
+  }
+
+  footer {
+    color: #f3f4f6;
+    text-align: center;
+    padding: 1.5rem 0;
+    font-size: 0.9rem;
+  }
+
+  .footer-content a {
+    color: #c5d0f9;
+    text-decoration: none;
+    margin: 0 0.5rem;
+  }
+
+  .footer-content a:hover {
+    text-decoration: underline;
+  }
+
+  @media (max-width: 768px) {
+    .content-sections {
+      flex-direction: column;
+      padding: 1rem;
+    }
+  }
+</style>
+
+
+  </style>
+</head>
+<body>
+<nav class="main-nav">
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li class="dropdown">
+      <a href="#">Topics ▾</a>
+      <ul class="dropdown-menu">
+        <li><a href="programming.html">Programming</a></li>
+        <li><a href="economics.html">Economics</a></li>
+        <li><a href="community.html">Community</a></li>
+        <li><a href="policy.html">Policy</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+  <!-- Banner -->
+  <section id="banner">
+  <div class="inner">
+    <div class="logo-container">
+      <div class="logo" title="Programming">
+        <i class="fas fa-code"></i>
+      </div>
+    </div>
+    <h1>Programming</h1>
+  </div>
+</section>
+  
+
+  <!-- Main Content -->
+ <section class="content-sections">
+  <div class="section-box">
+    <h2>My Journey</h2>
+    <p> Programming wasn’t always part of my academic path, but during my third year of university (2022–2023), I began self-learning after realizing how essential it was to the modern world. Since then, I’ve been consistently building skills in Python and HTML, with a growing foundation in SQL and Java.
+      What drives me is the desire to not only build websites for personal use but also to learn how to structure and manipulate data into clean, understandable deliverables.
+      My larger goal is to use programming as a tool to strengthen my understanding of economics, business development, and finance, and to support my personal projects and entrepreneurial efforts.
+    </p>
+  </div>
+
+  <div class="section-box">
+    <h2>Next Stages & Plans</h2>
+    <ul>
+      <li>Complete larger personal projects that reflect my skillset and creativity.</li>
+      <li>Develop portfolio-worthy apps to showcase my growth.</li>
+      <li>Continue expanding knowledge in full-stack web development and data analytics.</li>
+      <li>Continue to expand my experience through freelance work and personal projects, giving me practical, real-world applications.</li>
+      <li>Refine coding style, improve testing practices, and build scalable applications.</li>
+    </ul>
+  </div>
+</section>
+
+
+
+  <footer>
+  <div class="footer-content">
+    <p>&copy; 2025 Khalid Ahmed. Built with ❤️</p>
+    <p>
+      <a href="mailto:khalid.ahmed009@outlook.com">khalid.ahmed009@outlook.com</a> |
+      <a href="https://www.linkedin.com/in/khalid-ahmed-18b229229/" target="_blank" rel="noopener">LinkedIn</a> |
+      <a href="https://github.com/KhalidSAhmed02" target="_blank" rel="noopener">GitHub</a> |
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>

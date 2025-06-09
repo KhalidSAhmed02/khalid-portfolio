@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Khalid Ahmed - Projects</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    
+  * {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background: linear-gradient(to right, #000000, hsl(96, 40%, 68%));
+    color: #dce7ff;
+  }
+
+.main-nav {
+  background: linear-gradient(to right, #000000, hsl(96, 40%, 68%));
+  color: #dce7ff;
+  padding: 12px 20px;
+}
+
+.main-nav > ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #561ea0;
+  top: 100%;
+  left: 0;
+  min-width: 160px;
+  border-radius: 8px;
+  padding: 0;
+  list-style: none;
+  
+  /* Override inherited flex from parent ul */
+  display: none;
+  flex-direction: column; /* Optional, but makes sure it stacks vertically */
+}
+
+.dropdown-menu li {
+  padding: 10px 16px;
+  white-space: nowrap;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: flex;  /* flex works well for dropdown lists */
+}
+
+
+  #banner {
+    background: transparent;
+    padding: 3rem 1rem;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+ .logo {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(167, 206, 141);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #f3f4f6;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  }
+
+
+
+  h1 {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+    margin: 15px 0;
+    text-align: center;
+    color: #e2eeff
+  }
+
+   .content-sections {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .section-box {
+    flex: 1 1 400px;
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.3);
+  }
+
+  .section-box h2 {
+    color: #f0f8ff;
+    margin-bottom: 1rem;
+  }
+
+  .section-box p, .section-box ul {
+    color: #cbd5e1;
+    line-height: 1.6;
+    font-size: 1rem;
+  }
+
+  .section-box ul {
+    padding-left: 1.2rem;
+  }
+
+  footer {
+    color: #f3f4f6;
+    text-align: center;
+    padding: 1.5rem 0;
+    font-size: 0.9rem;
+  }
+
+  .footer-content a {
+    color: #c5d0f9;
+    text-decoration: none;
+    margin: 0 0.5rem;
+  }
+
+  .footer-content a:hover {
+    text-decoration: underline;
+  }
+
+  @media (max-width: 768px) {
+    .content-sections {
+      flex-direction: column;
+      padding: 1rem;
+    }
+  }
+</style>
+
+
+  </style>
+</head>
+<body>
+<nav class="main-nav">
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li class="dropdown">
+      <a href="#">Topics ▾</a>
+      <ul class="dropdown-menu">
+        <li><a href="programming.html">Programming</a></li>
+        <li><a href="economics.html">Economics</a></li>
+        <li><a href="community.html">Community</a></li>
+        <li><a href="policy.html">Policy</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+  <!-- Banner -->
+   <section id="banner">
+  <div class="inner">
+    <div class="logo-container">
+      <div class="logo" title="Programming">
+       <i class="fas fa-users"></i>
+      </div>
+    </div>
+    <h1>Community</h1>
+  </div>
+</section>
+  
+
+  <!-- Main Content -->
+ <section class="content-sections">
+  <div class="section-box">
+    <h2>My Journey</h2>
+    <p> Community has always been at the center of what I believe in. I strongly feel that the erosion of community togetherness lies at the heart of many modern social and societal challenges.
+        Throughout my life, I’ve been active in giving back, from volunteering at Somali Relief to supporting local charities and my long-term dream is to work in economic roles that are community-based, where I can help foster entrepreneurship, empower individuals, and create tangible, long-lasting impact. 
+        I believe deeply that resilient, tight-knit communities are the foundation for meaningful progress.
+    </p>
+  </div>
+
+  <div class="section-box">
+    <h2>Next Stages & Plans</h2>
+    <ul>
+      <li>Continue researching and writing about community issues, particularly those affecting marginalized or underserved populations.</li>
+      <li>Deepen my understanding of how historical and modern changes have led to the weakening of communities over the last few centuries.</li>
+      <li>Pursue roles that combine economics and policy to help communities grow stronger, fairer, and more connected.</li>
+      <li>Commit to learning by doing, contributing directly through volunteering and project-based community work.</li>
+    </ul>
+  </div>
+</section>
+
+
+  <footer>
+  <div class="footer-content">
+    <p>&copy; 2025 Khalid Ahmed. Built with ❤️</p>
+    <p>
+      <a href="mailto:khalid.ahmed009@outlook.com">khalid.ahmed009@outlook.com</a> |
+      <a href="https://www.linkedin.com/in/khalid-ahmed-18b229229/" target="_blank" rel="noopener">LinkedIn</a> |
+      <a href="https://github.com/KhalidSAhmed02" target="_blank" rel="noopener">GitHub</a> |
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>
