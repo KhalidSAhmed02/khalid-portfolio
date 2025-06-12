@@ -16,12 +16,12 @@
   body {
     font-family: 'Segoe UI', sans-serif;
     margin: 0;
-    background: linear-gradient(to right, #000000, hsl(194, 86%, 43%));
+    background: linear-gradient(to right, #000000, hsl(10, 75%, 60%));
     color: #dce7ff;
   }
 
 .main-nav {
-  background: linear-gradient(to right, #000000, hsl(194deg 86% 43%));
+  background: linear-gradient(to right, #000000, rgb(230, 102, 76));
   color: #dce7ff;
   padding: 12px 20px;
 }
@@ -85,7 +85,7 @@
   .logo {
     width: 80px;
     height: 80px;
-    background-color: rgb(15, 160, 204);
+    background-color: rgb(230, 102, 76);
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -120,6 +120,22 @@
     border-radius: 12px;
     box-shadow: 0 0 12px rgba(0,0,0,0.3);
   }
+
+  .section-box {
+  flex: 1 1 400px;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.3);
+  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+
+.section-box:hover {
+  transform: translateY(-6px);
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
 
   .section-box h2 {
     color: #f0f8ff;
